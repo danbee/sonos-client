@@ -11,6 +11,8 @@ gem 'sonos'
 
 gem 'jbuilder', '~> 2.0'
 
+gem 'bourbon'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-fetch'
 end
