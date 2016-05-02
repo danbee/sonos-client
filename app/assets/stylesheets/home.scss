@@ -56,6 +56,10 @@ header {
 .album-art {
   margin-left: 3em;
   margin-right: 1.5em;
+
+  img {
+    width: 400px;
+  }
 }
 
 .metadata {

@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'sonos'
+gem 'sprockets-es6'
 gem 'uglifier', '>= 1.3.0'
 
 source 'https://rails-assets.org' do

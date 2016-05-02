@@ -26,17 +26,11 @@
   </div>
 
   <script>
-    this.groups = [];
+    updateComponent = function(groups) {
+      this.groups = store.getState().groups
+      this.update()
+    }.bind(this)
 
-    console.log(this);
-
-    updateGroups = function (json) {
-      this.groups = json;
-      this.update();
-    }
-
-    fetch('/api/groups.json')
-      .then(function(response) { return response.json() })
-      .then(updateGroups.bind(this));
+    store.subscribe(updateComponent)
   </script>
 </groups>
