@@ -1,24 +1,12 @@
-# README
+# Sonos Client
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Dependencies
 
-Things you may want to cover:
+Requires Node.js and Babel for Javascript compilation:
 
-* Ruby version
+```sh
+$ brew install node
+$ npm install babel@5.8 -g
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Requires a Sonos system (of course!)

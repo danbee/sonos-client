@@ -25,8 +25,8 @@
     </div>
   </div>
 
-  <script>
-    updateComponent = function(groups) {
+  <script type="es6">
+    updateComponent = (groups) => {
       this.groups = store.getState().groups
       this.update()
     }.bind(this)
